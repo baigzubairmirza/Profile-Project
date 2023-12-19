@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    border: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainbox{
+    height: 550px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    
+   
+
+}
+
+.firstbox{
+    
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 20px;
+   
+
+    
+   
+   
+    
+}
+.imgbox img{
+    height:150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 8px solid whitesmoke;
+    box-shadow: 2px 2px 2px rgba(107, 107, 107, 0.362);
+
+    
+}
+
+
+.secondbox{height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+    font-size: 30px;
+
+
+}
+
+.logo{
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px rgba(107, 107, 107, 0.362);
+    
+}
+#box1{
+    color: rgb(16, 16, 222);
+}
+#box2{
+    color: rgb(113, 211, 249);
+}
+#box3{
+    color: rgb(222, 97, 139);
+}
+#box4{
+    color: red;
+}
+
+.thirdbox{height: 17%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    
+}
+button{
+    height: 40px;
+    width: 120px;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 2px 2px 2px rgba(107, 107, 107, 0.362);
+    font-size: medium;
+}
+
+
+
+
+.fourthbox{height: 17%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bolder;
+}
+#like1,#like2,#like3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 80px;
+    box-shadow: 2px 2px 2px rgba(107, 107, 107, 0.362);
+}
